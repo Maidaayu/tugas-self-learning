@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "halo",
+        "hai"
+      ],
+      "responses": [
+        "Hai! Selamat datang di Notre Caffe. Ada yang bisa aku bantu?",
+        "Halo! Aku White Bunny, salam kenal ya! Mau beli sesuatu?"
+      ]
+    },
+    {
+      "tag": "White Bunny",
+      "patterns": [
+        "Apa itu White Bunny?"
+      ],
+      "responses": [
+        "White Bunny adalah aplikasi chatbot informasi Notre Caffe"
+      ]
+    },
+    {
+      "tag": "Menu",
+      "patterns": [
+        "Mau liat menu minuman",
+        "Boleh liat menu makanan?",
+        "Menu snacknya apa aja?"
+      ],
+      "responses": [
+        "Menu minuman yang ada di Notre adalah Skyline, Mud Stunner, Cheese Latte, Chocolate, Matcha, Red Velvet, Americano, Espresso On The rock, Capuccino, Long Black",
+        "Menu makanan yang ada di Notre adalah Chicken Wings, Rice Bowl, Spaghetti, Mie Tektek, Nasi Goreng",
+        "Menu Snack yang ada di Notre adalah Pisang Goreng, Roti Bakar, French Fries, Potato Chips, Otak-otak"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Bye"
+      ],
+      "responses": [
+        "Dah, semoga harimu menyenangkan ya!",
+        "Good bye!"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "Aku mau order minuman",
+        "Aku mau order Makanan",
+        "Aku mau order"
+      ],
+      "responses": [
+        "Boleh, mau minuman apa?",
+        "Boleh, mau makanan apa?",
+        "Boleh, mau apa?"
+      ]
+    }
+      ]
+    }
+  
